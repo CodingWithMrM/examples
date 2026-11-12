@@ -4,7 +4,7 @@ The real code behind the videos on **Coding with Mr. M** (YouTube, Instagram and
 
 | Folder | Video |
 |---|---|
-| `long-01-react-rerenders` | React re-renders: what actually causes them (and what React.memo can't fix) |
+| `long-01-react-rerenders` | Why your React app re-renders |
 | `long-03-tanstack-query-vs-useeffect` | useEffect showed the wrong results 13 times in 20. TanStack Query: 0 |
 | `long-06-react-hydration-mismatch` | suppressHydrationWarning doesn't fix your bug (here's what does) |
 | `short-01-stop-useeffect-derived-state` | Stop using useEffect to copy props into state |
