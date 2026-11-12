@@ -1,0 +1,261 @@
+{
+ "race": {
+  "trials": 20,
+  "stale": {
+   "naive": 13,
+   "ignore": 0,
+   "query": 0
+  },
+  "latenciesLastTrial": null,
+  "example": {
+   "trial": 3,
+   "shownAtEnd": "reac",
+   "calls": [
+    {
+     "term": "r",
+     "latencyMs": 667,
+     "startedAt": 0
+    },
+    {
+     "term": "re",
+     "latencyMs": 491,
+     "startedAt": 82
+    },
+    {
+     "term": "rea",
+     "latencyMs": 453,
+     "startedAt": 162
+    },
+    {
+     "term": "reac",
+     "latencyMs": 709,
+     "startedAt": 242
+    },
+    {
+     "term": "react",
+     "latencyMs": 536,
+     "startedAt": 322
+    }
+   ]
+  }
+ },
+ "dedupe": {
+  "components": 3,
+  "requestsSent": {
+   "naive": 3,
+   "query": 1
+  }
+ },
+ "cache": {
+  "naive": {
+   "firstVisitMs": 412,
+   "comeBackMs": 402.5,
+   "networkCalls": 2
+  },
+  "query-0": {
+   "firstVisitMs": 403,
+   "comeBackMs": 0.4,
+   "networkCalls": 2
+  },
+  "query-30s": {
+   "firstVisitMs": 402,
+   "comeBackMs": 0.3,
+   "networkCalls": 1
+  }
+ },
+ "optimistic": {
+  "plain": [
+   {
+    "ms": 708.3,
+    "done": "true"
+   }
+  ],
+  "optimistic": [
+   {
+    "ms": 2,
+    "done": "true"
+   }
+  ],
+  "optimistic-fail": [
+   {
+    "ms": 0.9,
+    "done": "true"
+   },
+   {
+    "ms": 407.7,
+    "done": "false"
+   }
+  ]
+ },
+ "tab": {
+  "none": [
+   {
+    "bShowsAtEnd": "Apollo",
+    "bUpdatedAfterMs": null,
+    "aFetches": 2,
+    "bFetches": 1,
+    "aReceivedOwn": 0,
+    "bReceived": 0
+   },
+   {
+    "bShowsAtEnd": "Apollo",
+    "bUpdatedAfterMs": null,
+    "aFetches": 2,
+    "bFetches": 1,
+    "aReceivedOwn": 0,
+    "bReceived": 0
+   },
+   {
+    "bShowsAtEnd": "Apollo",
+    "bUpdatedAfterMs": null,
+    "aFetches": 2,
+    "bFetches": 1,
+    "aReceivedOwn": 0,
+    "bReceived": 0
+   },
+   {
+    "bShowsAtEnd": "Apollo",
+    "bUpdatedAfterMs": null,
+    "aFetches": 2,
+    "bFetches": 1,
+    "aReceivedOwn": 0,
+    "bReceived": 0
+   },
+   {
+    "bShowsAtEnd": "Apollo",
+    "bUpdatedAfterMs": null,
+    "aFetches": 2,
+    "bFetches": 1,
+    "aReceivedOwn": 0,
+    "bReceived": 0
+   }
+  ],
+  "fact": [
+   {
+    "bShowsAtEnd": "Apollo 2",
+    "bUpdatedAfterMs": 404,
+    "aFetches": 2,
+    "bFetches": 2,
+    "aReceivedOwn": 0,
+    "bReceived": 1,
+    "bytes": "{\"fact\":45,\"data\":3880}"
+   },
+   {
+    "bShowsAtEnd": "Apollo 2",
+    "bUpdatedAfterMs": 404,
+    "aFetches": 2,
+    "bFetches": 2,
+    "aReceivedOwn": 0,
+    "bReceived": 1
+   },
+   {
+    "bShowsAtEnd": "Apollo 2",
+    "bUpdatedAfterMs": 404,
+    "aFetches": 2,
+    "bFetches": 2,
+    "aReceivedOwn": 0,
+    "bReceived": 1
+   },
+   {
+    "bShowsAtEnd": "Apollo 2",
+    "bUpdatedAfterMs": 406,
+    "aFetches": 2,
+    "bFetches": 2,
+    "aReceivedOwn": 0,
+    "bReceived": 1
+   },
+   {
+    "bShowsAtEnd": "Apollo 2",
+    "bUpdatedAfterMs": 405,
+    "aFetches": 2,
+    "bFetches": 2,
+    "aReceivedOwn": 0,
+    "bReceived": 1
+   }
+  ],
+  "data": [
+   {
+    "bShowsAtEnd": "Apollo 2",
+    "bUpdatedAfterMs": 405,
+    "aFetches": 3,
+    "bFetches": 1,
+    "aReceivedOwn": 0,
+    "bReceived": 1
+   },
+   {
+    "bShowsAtEnd": "Apollo 2",
+    "bUpdatedAfterMs": 407,
+    "aFetches": 3,
+    "bFetches": 1,
+    "aReceivedOwn": 0,
+    "bReceived": 1
+   },
+   {
+    "bShowsAtEnd": "Apollo 2",
+    "bUpdatedAfterMs": 404,
+    "aFetches": 3,
+    "bFetches": 1,
+    "aReceivedOwn": 0,
+    "bReceived": 1
+   },
+   {
+    "bShowsAtEnd": "Apollo 2",
+    "bUpdatedAfterMs": 404,
+    "aFetches": 3,
+    "bFetches": 1,
+    "aReceivedOwn": 0,
+    "bReceived": 1
+   },
+   {
+    "bShowsAtEnd": "Apollo 2",
+    "bUpdatedAfterMs": 404,
+    "aFetches": 3,
+    "bFetches": 1,
+    "aReceivedOwn": 0,
+    "bReceived": 1
+   }
+  ],
+  "two": [
+   {
+    "bShowsAtEnd": "Apollo 2",
+    "bUpdatedAfterMs": 405,
+    "aFetches": 3,
+    "bFetches": 2,
+    "aReceivedOwn": 1,
+    "bReceived": 1
+   },
+   {
+    "bShowsAtEnd": "Apollo 2",
+    "bUpdatedAfterMs": 407,
+    "aFetches": 3,
+    "bFetches": 2,
+    "aReceivedOwn": 1,
+    "bReceived": 1
+   },
+   {
+    "bShowsAtEnd": "Apollo 2",
+    "bUpdatedAfterMs": 407,
+    "aFetches": 3,
+    "bFetches": 2,
+    "aReceivedOwn": 1,
+    "bReceived": 1
+   },
+   {
+    "bShowsAtEnd": "Apollo 2",
+    "bUpdatedAfterMs": 408,
+    "aFetches": 3,
+    "bFetches": 2,
+    "aReceivedOwn": 1,
+    "bReceived": 1
+   },
+   {
+    "bShowsAtEnd": "Apollo 2",
+    "bUpdatedAfterMs": 408,
+    "aFetches": 3,
+    "bFetches": 2,
+    "aReceivedOwn": 1,
+    "bReceived": 1
+   }
+  ]
+ }
+}

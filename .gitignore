@@ -1,0 +1,8 @@
+node_modules/
+dist/
+out/
+.next/
+bundle.js
+*.log
+.env*
+.DS_Store

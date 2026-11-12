@@ -1,0 +1,1 @@
+{ "name": "server-action-no-js", "private": true, "scripts": { "build": "next build --webpack", "start": "next start -p 8793" } }

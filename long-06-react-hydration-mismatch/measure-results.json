@@ -1,0 +1,692 @@
+{
+ "Clock": {
+  "console": [],
+  "text": "12:32:47",
+  "clientTime": null,
+  "recoverable": "[\"Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed \"]"
+ },
+ "ClockSuppress": {
+  "console": [],
+  "text": "12:32:49",
+  "clientTime": "12:32:51",
+  "recoverable": "[]"
+ },
+ "NestedSuppress": {
+  "console": [],
+  "text": "12:32:54",
+  "clientTime": null,
+  "recoverable": "[\"Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed \"]"
+ },
+ "ClockGate": {
+  "console": [],
+  "text": "12:32:58",
+  "clientTime": null,
+  "recoverable": "[]"
+ },
+ "SidebarInit": {
+  "layoutClass": "layout",
+  "asideLeft": -260,
+  "console": [
+   "error: A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the serv"
+  ],
+  "recoverable": "[]"
+ },
+ "flicker": {
+  "SidebarEffect@0": [
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 60,
+    "wrongMs": 44,
+    "closedFrames": 2,
+    "firstFrame": "closed"
+   },
+   {
+    "firstSeen": 15,
+    "fcp": 20,
+    "firstOpen": 28,
+    "wrongMs": 8,
+    "closedFrames": 0,
+    "firstFrame": "closed"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 26,
+    "wrongMs": 10,
+    "closedFrames": 0,
+    "firstFrame": "closed"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 26,
+    "wrongMs": 10,
+    "closedFrames": 0,
+    "firstFrame": "closed"
+   },
+   {
+    "firstSeen": 14,
+    "fcp": 16,
+    "firstOpen": 27,
+    "wrongMs": 11,
+    "closedFrames": 0,
+    "firstFrame": "closed"
+   },
+   {
+    "firstSeen": 11,
+    "fcp": 16,
+    "firstOpen": 25,
+    "wrongMs": 9,
+    "closedFrames": 0,
+    "firstFrame": "closed"
+   },
+   {
+    "firstSeen": 11,
+    "fcp": 16,
+    "firstOpen": 26,
+    "wrongMs": 10,
+    "closedFrames": 0,
+    "firstFrame": "closed"
+   },
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 26,
+    "wrongMs": 10,
+    "closedFrames": 0,
+    "firstFrame": "closed"
+   },
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 25,
+    "wrongMs": 9,
+    "closedFrames": 0,
+    "firstFrame": "closed"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 26,
+    "wrongMs": 10,
+    "closedFrames": 0,
+    "firstFrame": "closed"
+   }
+  ],
+  "SidebarGate@0": [
+   {
+    "firstSeen": 27,
+    "fcp": 32,
+    "firstOpen": 27,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 25,
+    "fcp": 28,
+    "firstOpen": 25,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 27,
+    "fcp": 32,
+    "firstOpen": 27,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 29,
+    "fcp": 32,
+    "firstOpen": 29,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 28,
+    "fcp": 32,
+    "firstOpen": 28,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 28,
+    "fcp": 32,
+    "firstOpen": 28,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 30,
+    "fcp": 32,
+    "firstOpen": 30,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 25,
+    "fcp": 28,
+    "firstOpen": 25,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 26,
+    "fcp": 32,
+    "firstOpen": 26,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 26,
+    "fcp": 28,
+    "firstOpen": 26,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   }
+  ],
+  "SidebarCss@0": [
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 13,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 13,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 13,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 12,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 12,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 13,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 12,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 13,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 14,
+    "fcp": 16,
+    "firstOpen": 14,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 13,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   }
+  ],
+  "SidebarCss&variant=short@0": [
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 12,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 11,
+    "fcp": 16,
+    "firstOpen": 11,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 13,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 12,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 12,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 12,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 15,
+    "fcp": 20,
+    "firstOpen": 15,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 12,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 13,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 12,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   }
+  ],
+  "SidebarEffect@300": [
+   {
+    "firstSeen": 27,
+    "fcp": 32,
+    "firstOpen": 360,
+    "wrongMs": 328,
+    "closedFrames": 19,
+    "firstFrame": "closed"
+   },
+   {
+    "firstSeen": 14,
+    "fcp": 16,
+    "firstOpen": 329,
+    "wrongMs": 313,
+    "closedFrames": 18,
+    "firstFrame": "closed"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 329,
+    "wrongMs": 313,
+    "closedFrames": 18,
+    "firstFrame": "closed"
+   },
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 330,
+    "wrongMs": 314,
+    "closedFrames": 18,
+    "firstFrame": "closed"
+   },
+   {
+    "firstSeen": 20,
+    "fcp": 24,
+    "firstOpen": 335,
+    "wrongMs": 311,
+    "closedFrames": 18,
+    "firstFrame": "closed"
+   },
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 330,
+    "wrongMs": 314,
+    "closedFrames": 18,
+    "firstFrame": "closed"
+   },
+   {
+    "firstSeen": 14,
+    "fcp": 16,
+    "firstOpen": 331,
+    "wrongMs": 315,
+    "closedFrames": 18,
+    "firstFrame": "closed"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 326,
+    "wrongMs": 310,
+    "closedFrames": 18,
+    "firstFrame": "closed"
+   },
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 326,
+    "wrongMs": 310,
+    "closedFrames": 18,
+    "firstFrame": "closed"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 326,
+    "wrongMs": 310,
+    "closedFrames": 18,
+    "firstFrame": "closed"
+   }
+  ],
+  "SidebarGate@300": [
+   {
+    "firstSeen": 327,
+    "fcp": 332,
+    "firstOpen": 327,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 327,
+    "fcp": 328,
+    "firstOpen": 327,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 327,
+    "fcp": 332,
+    "firstOpen": 327,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 329,
+    "fcp": 332,
+    "firstOpen": 329,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 325,
+    "fcp": 328,
+    "firstOpen": 325,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 325,
+    "fcp": 328,
+    "firstOpen": 325,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 325,
+    "fcp": 328,
+    "firstOpen": 325,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 326,
+    "fcp": 328,
+    "firstOpen": 326,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 327,
+    "fcp": 332,
+    "firstOpen": 327,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 342,
+    "fcp": 344,
+    "firstOpen": 342,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   }
+  ],
+  "SidebarCss@300": [
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 13,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 13,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 12,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 12,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 13,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 18,
+    "fcp": 24,
+    "firstOpen": 18,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 12,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 13,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 12,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 11,
+    "fcp": 16,
+    "firstOpen": 11,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   }
+  ],
+  "SidebarCss&variant=short@300": [
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 13,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 12,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 18,
+    "fcp": 20,
+    "firstOpen": 18,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 11,
+    "fcp": 16,
+    "firstOpen": 11,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 22,
+    "fcp": 28,
+    "firstOpen": 22,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 13,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 13,
+    "fcp": 16,
+    "firstOpen": 13,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 12,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 12,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   },
+   {
+    "firstSeen": 12,
+    "fcp": 16,
+    "firstOpen": 12,
+    "wrongMs": 0,
+    "closedFrames": 0,
+    "firstFrame": "open"
+   }
+  ]
+ }
+}

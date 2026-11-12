@@ -1,0 +1,10 @@
+{
+  "name": "mrm-01-react-rerenders-tests",
+  "private": true,
+  "description": "Scratch project for video #1's measured demos (React comes from ~/Workspace/remotion/node_modules via NODE_PATH; only the compiler test deps live here)",
+  "dependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/plugin-syntax-jsx": "^7.29.7",
+    "babel-plugin-react-compiler": "^1.0.0"
+  }
+}

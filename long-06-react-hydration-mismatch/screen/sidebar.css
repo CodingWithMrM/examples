@@ -1,0 +1,7 @@
+/* On screen: styles.css. The script sets data-sidebar on <html> before the first paint; CSS does the rest. */
+.sidebar {
+  transform: translateX(-100%);
+}
+html[data-sidebar="open"] .sidebar {
+  transform: none;
+}
